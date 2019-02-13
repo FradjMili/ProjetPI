@@ -1,0 +1,135 @@
+template_Admin:
+    path:     /admin
+    defaults: { _controller: TemplateBundle:Default:Admin }
+template_homepage:
+    path:     /
+    defaults: { _controller: TemplateBundle:Default:index }
+template_AddJob:
+    path:     /addjob
+    defaults: { _controller: TemplateBundle:Default:AddJob }
+template_Dashboard:
+    path:     /dashboard_Home
+    defaults: { _controller: TemplateBundle:Default:Dashboard }
+template_Profile:
+    path:     /profile
+    defaults: { _controller: TemplateBundle:Default:Profile }
+template_EditProfile:
+    path:     /editprofile
+    defaults: { _controller: TemplateBundle:Default:EditProfile }
+template_Login:
+    path:     /login
+    defaults: { _controller: TemplateBundle:Default:Login }
+template_Home:
+    path:     /home
+    defaults: { _controller: TemplateBundle:Default:Home }
+template_Hire:
+    path:     /hire
+    defaults: { _controller: TemplateBundle:Default:Hire }
+template_Work:
+    path:     /work
+    defaults: { _controller: TemplateBundle:Default:Work }
+template_Pricing:
+    path:     /pricing
+    defaults: { _controller: TemplateBundle:Default:Pricing }
+template_How:
+    path:     /how
+    defaults: { _controller: TemplateBundle:Default:How }
+_dashboard:
+    path:     /Dashboard
+    defaults: { _controller: TemplateBundle:Dashboard:Dashboard }
+
+_contract:
+    path:     /Contract
+    defaults: { _controller: TemplateBundle:Dashboard:Contract }
+
+_jobpasted:
+    path:     /Jobpasted
+    defaults: { _controller: TemplateBundle:Dashboard:Jobpasted }
+
+_add_job:
+    path:     /AddJob
+    defaults: { _controller: TemplateBundle:Dashboard:AddJob }
+
+_your-_proposals:
+    path:     /Your-Proposals
+    defaults: { _controller: TemplateBundle:Dashboard:Your-Proposals }
+
+_other-_proposals:
+    path:     /Other-Proposals
+    defaults: { _controller: TemplateBundle:Dashboard:Other-Proposals }
+
+_offers:
+    path:     /Offers
+    defaults: { _controller: TemplateBundle:Dashboard:Offers }
+
+_company:
+    path:     /Company
+    defaults: { _controller: TemplateBundle:Dashboard:Company }
+
+_add_company:
+    path:     /AddCompany
+    defaults: { _controller: TemplateBundle:Dashboard:AddCompany }
+
+_messages:
+    path:     /Messages
+    defaults: { _controller: TemplateBundle:Dashboard:Messages }
+
+_deposits:
+    path:     /Deposits
+    defaults: { _controller: TemplateBundle:Dashboard:Deposits }
+
+_withdrawals:
+    path:     /Withdrawals
+    defaults: { _controller: TemplateBundle:Dashboard:Withdrawals }
+
+_payment-_method:
+    path:     /Payment-Method
+    defaults: { _controller: TemplateBundle:Dashboard:Payment-Method }
+
+_nembership:
+    path:     /Nembership
+    defaults: { _controller: TemplateBundle:Dashboard:Nembership }
+
+_featured-_job:
+    path:     /Featured-Job
+    defaults: { _controller: TemplateBundle:Dashboard:Featured-Job }
+
+_featured-a-_job:
+    path:     /Featured-a-Job
+    defaults: { _controller: TemplateBundle:Dashboard:Featured-a-Job }
+
+_featured-_profiles:
+    path:     /Featured-Profiles
+    defaults: { _controller: TemplateBundle:Dashboard:Featured-Profiles }
+
+_featured-_your-_profile:
+    path:     /Featured-Your-Profile
+    defaults: { _controller: TemplateBundle:Dashboard:Featured-Your-Profile }
+
+_featured-_companies:
+    path:     /Featured-Companies
+    defaults: { _controller: TemplateBundle:Dashboard:Featured-Companies }
+
+_featured-_your-_company:
+    path:     /Featured-Your-Company
+    defaults: { _controller: TemplateBundle:Dashboard:Featured-Your-Company }
+
+_edit_profile:
+    path:     /EditProfile
+    defaults: { _controller: TemplateBundle:Dashboard:EditProfile }
+
+_profile_image:
+    path:     /ProfileImage
+    defaults: { _controller: TemplateBundle:Dashboard:ProfileImage }
+
+_password:
+    path:     /Password
+    defaults: { _controller: TemplateBundle:Dashboard:Password }
+
+_comapny:
+    path:     /Comapny
+    defaults: { _controller: TemplateBundle:Dashboard:Comapny }
+
+_workroom:
+    path:     /Workroom
+    defaults: { _controller: TemplateBundle:Dashboard:Workroom }
